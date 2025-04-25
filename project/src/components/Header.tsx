@@ -11,17 +11,12 @@ const Header = () => {
       <nav>
         <ul className="flex space-x-6">
           <li>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
-              Dashboard
+            <a href="/" className="text-gray-300 hover:text-white transition-colors">
+              Home
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
-              History
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">
+            <a href="/about" className="text-gray-300 hover:text-white transition-colors">
               About
             </a>
           </li>
